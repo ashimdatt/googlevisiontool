@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+{% for image in image_url_list %}
+    <div style="background-image: url('{{ image }}');"
+    class="imageResult"></div>
+{% endfor %}
+
+{% endblock %}
