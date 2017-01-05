@@ -98,7 +98,7 @@ def fetch_images(eventid,keyword):
                 ("%"+keyword+"%"),("%"+keyword+"%"),("%"+keyword+"%"),("%"+keyword+"%"),("%"+keyword+"%"),
                 ("%"+keyword+"%"),("%"+keyword+"%"),("%"+keyword+"%"),("%"+keyword+"%"),
                 ("%"+keyword+"%"),("%"+keyword+"%"))
-    conn = psycopg2.connect("dbname='analytics' user='etl' host='10.223.192.6' password='s0.Much.Data' port='5432'")
+    conn = psycopg2.connect("dbname='analytics' user='databasename' host='server' password='pass' port='port'")
     cur = conn.cursor()
 
     try:
